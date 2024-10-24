@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Humans",
+    "slug": "humans"
+  },
+  {
+    "name": "Beavers",
+    "slug": "beavers"
+  },
+  {
+    "name": "Harpies",
+    "slug": "harpies"
+  },
+  {
+    "name": "Lizards",
+    "slug": "lizards"
+  },
+  {
+    "name": "Foxes",
+    "slug": "foxes"
+  },
+  {
+    "name": "Frogs",
+    "slug": "frogs"
+  }
+]
