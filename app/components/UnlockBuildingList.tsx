@@ -28,7 +28,6 @@ function UnlockBuildingList() {
   const unlockedIndustryBuilding = buildings.filter((b: Building) => b.category === 'industry')
   return (
     <div>
-      <h2>Buildings to unlock through reputation or orders</h2>
       <div className="flex gap-2">
         <div className={[
           'w-1/2 p-2',

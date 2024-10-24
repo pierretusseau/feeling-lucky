@@ -7,7 +7,7 @@ import BuildingCounters from "@/app/components/BuildingCounters";
 export default function Home() {
   const year = new Date().getFullYear();
   return (
-    <div className="p-4 relative w-full min-h-screen">
+    <div className="p-4 relative w-full" style={{minHeight: "calc(100vh - 20px)"}}>
       <header className="fixed flex justify-between items-center w-screen -top-0 -left-0 py-2 pl-4 pr-8 bg-black z-10">
         <h1>Feeling Lucky Helper</h1>
         <div className="flex gap-2 items-center">
@@ -16,8 +16,10 @@ export default function Home() {
         </div>
       </header>
       <main className={[
-        'pt-10 flex flex-col gap-4 min-h-screen'
-      ].join(' ')}>
+          'pt-10 flex flex-col gap-4'
+        ].join(' ')}
+        style={{minHeight: "calc(100vh - 60px)"}}
+      >
         
         <SpeciesList />
         {/* <h2>Traders</h2> */}
