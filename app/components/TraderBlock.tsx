@@ -26,7 +26,7 @@ function TraderBlock(
       isBlockComplete ? "bg-[rgba(0,255,155,0.1)]" : "bg-[rgba(255,255,255,0.1)]",
       "rounded p-2 pb-20",
       "relative overflow-hidden",
-      "w-[15%]",
+      "w-[15%] min-w-[200px]",
     ].join(' ')}>
       <Image
         className="absolute -bottom-5 -left-7 opacity-25"
