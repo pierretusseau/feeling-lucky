@@ -1,0 +1,312 @@
+[
+  {
+    "name": "Woodcutters' Camp",
+    "category": "camps",
+    "vendors": []
+  },
+  {
+    "name": "Stonecutters' Camp",
+    "category": "camps",
+    "vendors": []
+  },
+  {
+    "name": "Harvesters' Camp",
+    "category": "camps",
+    "vendors": []
+  },
+  {
+    "name": "Fishing Hut",
+    "category": "camps",
+    "vendors": []
+  },
+  {
+    "name": "Foragers' Camp",
+    "category": "camps",
+    "vendors": ["sahilda", "xiadani", "ruenhar"]
+  },
+  {
+    "name": "Herbalists' Camp",
+    "category": "camps",
+    "vendors": ["sahilda", "slothur", "xiadani", "ruenhar"]
+  },
+  {
+    "name": "Trappers' Camp",
+    "category": "camps",
+    "vendors": ["sahilda", "xiadani", "ruenhar"]
+  },
+  {
+    "name": "Clay Pit",
+    "category": "food",
+    "vendors": ["zhorg"]
+  },
+  {
+    "name": "Forester's Hut",
+    "category": "food",
+    "vendors": []
+  },
+  {
+    "name": "Greenhouse",
+    "category": "food",
+    "vendors": ["zhorg"]
+  },
+  {
+    "name": "Herb Garden",
+    "category": "food",
+    "vendors": ["zhorg", "xiadani", "gex"]
+  },
+  {
+    "name": "Homestead",
+    "category": "food",
+    "vendors": [],
+    "ignore": true
+  },
+  {
+    "name": "Plantation",
+    "category": "food",
+    "vendors": ["sahilda"]
+  },
+  {
+    "name": "Small Farm",
+    "category": "food",
+    "vendors": ["sahilda", "zhorg", "xiadani", "ruenhar"]
+  },
+  {
+    "name": "Apothecary",
+    "category": "food",
+    "vendors": ["slothur", "gex"],
+    "requires": "harpies"
+  },
+  {
+    "name": "Bakery",
+    "category": "food",
+    "vendors": ["zhorg"]
+  },
+  {
+    "name": "Beanery",
+    "category": "food",
+    "vendors": [],
+    "requires": "foxes"
+  },
+  {
+    "name": "Butcher",
+    "category": "food",
+    "vendors": [],
+    "requires": "lizards"
+  },
+  {
+    "name": "Cellar",
+    "category": "food",
+    "vendors": [],
+    "requires": "beavers"
+  },
+  {
+    "name": "Cookhouse",
+    "category": "food",
+    "vendors": ["zhorg"],
+    "requires": "beavers"
+  },
+  {
+    "name": "Furnace",
+    "category": "food",
+    "vendors": ["zhorg"]
+  },
+  {
+    "name": "Granary",
+    "category": "food",
+    "vendors": []
+  },
+  {
+    "name": "Grill",
+    "category": "food",
+    "vendors": []
+  },
+  {
+    "name": "Rain Mill",
+    "category": "food",
+    "vendors": ["farluf"]
+  },
+  {
+    "name": "Ranch",
+    "category": "food",
+    "vendors": ["zhorg"]
+  },
+  {
+    "name": "Pantry",
+    "category": "food",
+    "vendors": [],
+    "requires": "frogs"
+  },
+  {
+    "name": "Smokehouse",
+    "category": "food",
+    "vendors": ["vliss"]
+  },
+  {
+    "name": "Advanced Rain Collector",
+    "category": "industry",
+    "vendors": ["farluf"]
+  },
+  {
+    "name": "Alchemist's Hut",
+    "category": "industry",
+    "vendors": ["slothur"]
+  },
+  {
+    "name": "Alchemist's Hut",
+    "category": "industry",
+    "vendors": ["slothur", "gex"]
+  },
+  {
+    "name": "Artisan",
+    "category": "industry",
+    "vendors": [],
+    "requires": "harpies"
+  },
+  {
+    "name": "Brewery",
+    "category": "industry",
+    "vendors": ["zhorg"],
+    "requires": "humans"
+  },
+  {
+    "name": "Brick Oven",
+    "category": "industry",
+    "vendors": [],
+    "requires": "humans"
+  },
+  {
+    "name": "Brickyard",
+    "category": "industry",
+    "vendors": ["xiadani"]
+  },
+  {
+    "name": "Cannery",
+    "category": "industry",
+    "vendors": [],
+    "requires": "frogs"
+  },
+  {
+    "name": "Clothier",
+    "category": "industry",
+    "vendors": []
+  },
+  {
+    "name": "Cobbler",
+    "category": "industry",
+    "vendors": []
+  },
+  {
+    "name": "Cooperage",
+    "category": "industry",
+    "vendors": []
+  },
+  {
+    "name": "Distillery",
+    "category": "industry",
+    "vendors": ["gex"]
+  },
+  {
+    "name": "Druid's Hut",
+    "category": "industry",
+    "vendors": ["slothur", "alune"]
+  },
+  {
+    "name": "Finesmith",
+    "category": "industry",
+    "vendors": [],
+    "ignore": true
+  },
+  {
+    "name": "Kiln",
+    "category": "industry",
+    "vendors": ["vliss"]
+  },
+  {
+    "name": "Leatherworker",
+    "category": "industry",
+    "vendors": [],
+    "requires": "lizards"
+  },
+  {
+    "name": "Lumber Mill",
+    "category": "industry",
+    "vendors": ["xiadani"]
+  },
+  {
+    "name": "Manufactory",
+    "category": "industry",
+    "vendors": []
+  },
+  {
+    "name": "Press",
+    "category": "industry",
+    "vendors": []
+  },
+  {
+    "name": "Provisioner",
+    "category": "industry",
+    "vendors": []
+  },
+  {
+    "name": "Rainpunk Foundry",
+    "category": "industry",
+    "vendors": [],
+    "ignore": true
+  },
+  {
+    "name": "Scribe",
+    "category": "industry",
+    "vendors": ["vliss", "alune"]
+  },
+  {
+    "name": "Smelter",
+    "category": "industry",
+    "vendors": ["farluf"]
+  },
+  {
+    "name": "Smithy",
+    "category": "industry",
+    "vendors": ["farluf"]
+  },
+  {
+    "name": "Stamping Mill",
+    "category": "industry",
+    "vendors": ["vliss"]
+  },
+  {
+    "name": "Supplier",
+    "category": "industry",
+    "vendors": []
+  },
+  {
+    "name": "Teahouse",
+    "category": "industry",
+    "vendors": [],
+    "requires": "foxes"
+  },
+  {
+    "name": "Tinctury",
+    "category": "industry",
+    "vendors": ["slothur"]
+  },
+  {
+    "name": "Tinkerer",
+    "category": "industry",
+    "vendors": []
+  },
+  {
+    "name": "Toolshop",
+    "category": "industry",
+    "vendors": ["farluf"]
+  },
+  {
+    "name": "Weaver",
+    "category": "industry",
+    "vendors": ["xiadani"]
+  },
+  {
+    "name": "Workshop",
+    "category": "industry",
+    "vendors": []
+  }
+]
