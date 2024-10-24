@@ -8,7 +8,9 @@ function SpeciesList() {
   const species = useSpeciesStore((state) => state.species)
   return (
     <div>
-      {species.length < 3 && <h2 className="text-3xl text-red-400 animate-pulse ml-4 uppercase font-bold">Don&quot;t forget to add all your species !</h2>}
+      {species.length < 3 && <h2 className="text-3xl text-red-400 animate-pulse ml-4 uppercase font-bold">
+        Don&lsquo;t forget to add all your species !
+      </h2>}
       <div className="species flex gap-2 flex-wrap">
         {Species.map(spec => <SpeciesBlock
           spec={spec}
