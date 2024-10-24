@@ -149,11 +149,6 @@
   {
     "name": "Alchemist's Hut",
     "category": "industry",
-    "vendors": ["sothur"]
-  },
-  {
-    "name": "Alchemist's Hut",
-    "category": "industry",
     "vendors": ["sothur", "gex"]
   },
   {
