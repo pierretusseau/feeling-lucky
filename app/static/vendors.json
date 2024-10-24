@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Sahilda",
+    "slug": "sahilda",
+    "type": "regular"
+  },
+  {
+    "name": "Zhorg",
+    "slug": "zhorg",
+    "type": "regular"
+  },
+  {
+    "name": "Old Farluf",
+    "slug": "farluf",
+    "type": "regular"
+  },
+  {
+    "name": "Sothur The Ancient",
+    "slug": "sothur",
+    "type": "regular"
+  },
+  {
+    "name": "Vliss Greybone",
+    "slug": "vliss",
+    "type": "regular"
+  },
+  {
+    "name": "Xiadani Stormfeather",
+    "slug": "xiadani",
+    "type": "regular"
+  },
+  {
+    "name": "Sir Renwald Redmane",
+    "slug": "renwald",
+    "type": "regular",
+    "ignore": true
+  },
+  {
+    "name": "Alune Soulgazer",
+    "slug": "alune",
+    "type": "glade"
+  },
+  {
+    "name": "Gex Runescale",
+    "slug": "gex",
+    "type": "glade"
+  },
+  {
+    "name": "Ruenhar Blightclaw",
+    "slug": "ruenhar",
+    "type": "glade"
+  }
+]

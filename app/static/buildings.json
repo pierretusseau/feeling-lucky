@@ -27,7 +27,7 @@
   {
     "name": "Herbalists' Camp",
     "category": "camps",
-    "vendors": ["sahilda", "slothur", "xiadani", "ruenhar"]
+    "vendors": ["sahilda", "sothur", "xiadani", "ruenhar"]
   },
   {
     "name": "Trappers' Camp",
@@ -73,7 +73,7 @@
   {
     "name": "Apothecary",
     "category": "food",
-    "vendors": ["slothur", "gex"],
+    "vendors": ["sothur", "gex"],
     "requires": "harpies"
   },
   {
@@ -149,12 +149,12 @@
   {
     "name": "Alchemist's Hut",
     "category": "industry",
-    "vendors": ["slothur"]
+    "vendors": ["sothur"]
   },
   {
     "name": "Alchemist's Hut",
     "category": "industry",
-    "vendors": ["slothur", "gex"]
+    "vendors": ["sothur", "gex"]
   },
   {
     "name": "Artisan",
@@ -208,7 +208,7 @@
   {
     "name": "Druid's Hut",
     "category": "industry",
-    "vendors": ["slothur", "alune"]
+    "vendors": ["sothur", "alune"]
   },
   {
     "name": "Finesmith",
@@ -287,7 +287,7 @@
   {
     "name": "Tinctury",
     "category": "industry",
-    "vendors": ["slothur"]
+    "vendors": ["sothur"]
   },
   {
     "name": "Tinkerer",
