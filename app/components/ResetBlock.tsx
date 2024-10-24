@@ -1,4 +1,4 @@
-'use client'
+
 import React from 'react'
 import Button from '@mui/material/Button';
 
@@ -16,7 +16,7 @@ function ResetBlock() {
         resetSpecies()
         resetBuildings()
       }}
-    >Reset</Button>
+    >Reset All</Button>
   )
 }
 

@@ -27,6 +27,7 @@ function TraderBlock(
       "rounded p-2",
       "relative overflow-hidden",
       "w-[15%] min-w-[200px]",
+      "transition-all"
     ].join(' ')}>
       <div>
         <div className="text-xs font-bold mb-2 text-center bg-black p-2 pr-4 pl-16 h-[50px] flex flex-col items-center justify-center relative overflow-hidden">

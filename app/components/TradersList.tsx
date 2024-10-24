@@ -1,4 +1,4 @@
-'use client'
+
 import React from 'react'
 import TraderBlock from "@/app/components/TraderBlock"
 import Traders from '@/app/static/vendors.json'
