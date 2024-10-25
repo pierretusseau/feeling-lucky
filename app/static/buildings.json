@@ -181,6 +181,11 @@
     "requires": "frogs"
   },
   {
+    "name": "Carpenter",
+    "category": "industry",
+    "vendors": ["farluf"]
+  },
+  {
     "name": "Clothier",
     "category": "industry",
     "vendors": []
