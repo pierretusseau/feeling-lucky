@@ -6,6 +6,7 @@ import BuildingBlock from '@/app/components/BuildingBlock'
 import useSpeciesStore from '@/app/stores/speciesStore'
 import useBuildingStore from '@/app/stores/buildingStore'
 import { slugify } from '@/app/utils/utils'
+import Image from 'next/image'
 
 function UnlockBuildingList() {
   const species = useSpeciesStore((state) => state.species)
@@ -33,7 +34,16 @@ function UnlockBuildingList() {
           'w-1/2 p-2',
           unlockedFoodBuilding.length === foodBuildings.length ? "bg-[rgba(0,255,155,0.1)]" : "bg-[rgba(255,255,255,0.1)]"
         ].join(' ')}>
-          <h3 className="text-xs font-bold mb-2 text-center bg-black p-2 h-12 flex flex-col items-center justify-center">Food production</h3>
+          <h3 className="relative overflow-hidden pl-12 text-xs font-bold mb-2 text-center bg-black p-2 h-12 flex flex-col items-center justify-center rounded">
+            <Image
+              className="absolute -bottom-7 -left-9 opacity-75 scale-75"
+              src={`/images/icons/food.png`}
+              width={100}
+              height={100}
+              alt={`Icon of food production buildings`}
+            />
+            Food production
+          </h3>
           {foodBuildings.map((building: Building) => <BuildingBlock
             key={slugify(building.name)}
             building={building}
@@ -43,7 +53,16 @@ function UnlockBuildingList() {
           'w-1/2 p-2',
           unlockedIndustryBuilding.length === industryBuildings.length ? "bg-[rgba(0,255,155,0.1)]" : "bg-[rgba(255,255,255,0.1)]"
         ].join(' ')}>
-          <h3 className="text-xs font-bold mb-2 text-center bg-black p-2 h-12 flex flex-col items-center justify-center">Industry</h3>
+          <h3 className="relative overflow-hidden pl-12 text-xs font-bold mb-2 text-center bg-black p-2 h-12 flex flex-col items-center justify-center rounded">
+            <Image
+              className="absolute -bottom-7 -left-9 opacity-75 scale-75"
+              src={`/images/icons/industry.png`}
+              width={100}
+              height={100}
+              alt={`Icon of industry buildings`}
+            />
+            Industry
+          </h3>
           {industryBuildings.map((building: Building) => <BuildingBlock
             key={slugify(building.name)}
             building={building}

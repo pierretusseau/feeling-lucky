@@ -30,7 +30,7 @@ function TraderBlock(
       "transition-all"
     ].join(' ')}>
       <div>
-        <div className="text-xs font-bold mb-2 text-center bg-black p-2 pr-4 pl-16 h-[50px] flex flex-col items-center justify-center relative overflow-hidden">
+        <div className="text-xs font-bold mb-2 text-center bg-black p-2 pr-4 pl-16 h-[50px] flex flex-col items-center justify-center relative overflow-hidden rounded rounded-e-full">
           <Image
             className="absolute -bottom-6 -left-7 opacity-75 scale-75"
             src={`/images/traders/${trader.slug}.png`}
