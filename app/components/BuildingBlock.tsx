@@ -18,7 +18,8 @@ function BuildingBlock({
   const classes = [
     (building.category !== 'food' && building.category !== 'industry') && 'opacity-25',
     building.category === 'food' && 'text-green-400',
-    building.category === 'industry' && 'text-orange-400'
+    building.category === 'industry' && 'text-orange-400',
+    'mx-2'
   ].join(' ')
   return (
     <div className={classes}>

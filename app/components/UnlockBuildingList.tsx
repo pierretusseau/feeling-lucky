@@ -27,19 +27,30 @@ function UnlockBuildingList() {
   const industryBuildings = buildingsWithoutCamps.filter((b: Building) => b.category === 'industry')
   const unlockedFoodBuilding = buildings.filter((b: Building) => b.category === 'food')
   const unlockedIndustryBuilding = buildings.filter((b: Building) => b.category === 'industry')
+  const classes = [
+    "text-xs font-bold text-center",
+    "mb-2",
+    "bg-neutral-900",
+    "p-2 pr-4 pl-20",
+    "h-[50px]",
+    "flex flex-col items-center justify-center",
+    "relative overflow-hidden",
+
+  ].join(' ')
+
   return (
     <div>
       <div className="flex gap-2">
         <div className={[
-          'w-1/2 p-2',
+          'w-1/2 pb-2',
           unlockedFoodBuilding.length === foodBuildings.length ? "bg-[rgba(0,255,155,0.1)]" : "bg-[rgba(255,255,255,0.1)]"
         ].join(' ')}>
-          <h3 className="relative overflow-hidden pl-12 text-xs font-bold mb-2 text-center bg-black p-2 h-12 flex flex-col items-center justify-center rounded">
+          <h3 className={classes}>
             <Image
-              className="absolute -bottom-7 -left-9 opacity-75 scale-75"
+              className="absolute -bottom-9 -left-10 opacity-75 scale-75"
               src={`/images/icons/food.png`}
-              width={100}
-              height={100}
+              width={120}
+              height={120}
               alt={`Icon of food production buildings`}
             />
             Food production
@@ -50,15 +61,15 @@ function UnlockBuildingList() {
           />)}
         </div>
         <div className={[
-          'w-1/2 p-2',
+          'w-1/2 pb-2',
           unlockedIndustryBuilding.length === industryBuildings.length ? "bg-[rgba(0,255,155,0.1)]" : "bg-[rgba(255,255,255,0.1)]"
         ].join(' ')}>
-          <h3 className="relative overflow-hidden pl-12 text-xs font-bold mb-2 text-center bg-black p-2 h-12 flex flex-col items-center justify-center rounded">
+          <h3 className={classes}>
             <Image
-              className="absolute -bottom-7 -left-9 opacity-75 scale-75"
+              className="absolute -bottom-9 -left-10 opacity-75 scale-75"
               src={`/images/icons/industry.png`}
-              width={100}
-              height={100}
+              width={120}
+              height={120}
               alt={`Icon of industry buildings`}
             />
             Industry
