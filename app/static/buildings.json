@@ -35,8 +35,13 @@
     "vendors": ["sahilda", "xiadani", "ruenhar"]
   },
   {
+    "name": "Advanced Rain Collector",
+    "category": "camps",
+    "vendors": ["farluf"]
+  },
+  {
     "name": "Clay Pit",
-    "category": "food",
+    "category": "camps",
     "vendors": ["zhorg"]
   },
   {
@@ -63,7 +68,7 @@
   {
     "name": "Plantation",
     "category": "food",
-    "vendors": ["sahilda"]
+    "vendors": ["sahilda", "zhorg"]
   },
   {
     "name": "Small Farm",
@@ -108,7 +113,7 @@
   {
     "name": "Furnace",
     "category": "food",
-    "vendors": ["zhorg"]
+    "vendors": []
   },
   {
     "name": "Granary",
@@ -140,11 +145,6 @@
     "name": "Smokehouse",
     "category": "food",
     "vendors": ["vliss"]
-  },
-  {
-    "name": "Advanced Rain Collector",
-    "category": "industry",
-    "vendors": ["farluf"]
   },
   {
     "name": "Alchemist's Hut",
